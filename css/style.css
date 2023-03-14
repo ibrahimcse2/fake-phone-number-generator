@@ -1,0 +1,109 @@
+/*  
+
+***************
+
+Template Name: Fake phone number generator 
+Author: Ibrahim
+Author G-mail: ibrahim.cse2 @gmail.com
+Version: 1.00 
+
+****************
+
+
+****************
+Table of Content 
+
+****************
+
+1. Main part
+2. Show number part 
+
+**************** 
+
+*/
+
+
+
+/* ====== common css start======= */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ====== common css end======= */
+body{
+  
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+    
+}
+/* ========  main part ======== */
+.container{
+  margin-top: 30px;
+  width: 820px;
+  
+}
+.container h1 {
+  text-align: center;
+  font-size: 29px;
+}
+
+.container .main-item {
+  background: skyblue;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.container .main-item .select{
+  margin-bottom: 30px;
+  margin-top: 20px;
+  
+}
+.container .main-item .quantity{
+  margin-bottom: 30px;
+}
+.container .main-item .country-select{
+  width: 50px;
+}
+
+button{
+  margin-bottom: 20px;
+}
+
+.show textarea{
+  width: 100%;
+  height: 400px;
+  outline: none;
+  border-radius: 5px;
+  resize: none;
+  font-size: 18px;
+  padding: 20px 100px;
+  line-height: 40px;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 30px 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+option {
+  padding: 8px;
+  font-size: 16px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 30px 20px;
+}
+select option:checked {
+  font-weight: bold;
+}
+/* ======= main part end ========= */
